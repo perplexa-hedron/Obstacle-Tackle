@@ -13,6 +13,7 @@ AMovingPlatform::AMovingPlatform()
 void AMovingPlatform::BeginPlay()
 {
 	Super::BeginPlay();
+	StartLocation = GetActorLocation();
 }
 
 // Called every frame
@@ -24,10 +25,11 @@ void AMovingPlatform::Tick(float DeltaTime)
 	FVector CurrentVector = GetActorLocation();
 	//  add vector to that location
 	//  set the location
-	CurrentVector += PlatformVelocity;
+	CurrentVector += (PlatformVelocity*DeltaTime);
 	// CurrentVector.Y += 2;
 	SetActorLocation(CurrentVector);
 	// move the platform backward
 	//  check the location
+	PlatformDistance = FVector::Dist(StartLocation,CurrentVector);
 	// reverse the motion
 }

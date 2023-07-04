@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\piyush sinha\\onedrive\\documents\\github\\obstacle-tackle\\obstacletackle\\source\\obstacletackle\\obstacletackle.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\piyush sinha\\onedrive\\documents\\github\\obstacle-tackle\\obstacletackle\\intermediate\\build\\win64\\x64\\obstacletackleeditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "c:\\users\\piyush sinha\\onedrive\\documents\\github\\obstacle-tackle\\obstacletackle\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\obstacletackle\\definitions.obstacletackle.h",
+            "c:\\users\\piyush sinha\\onedrive\\documents\\github\\obstacle-tackle\\obstacletackle\\source\\obstacletackle\\obstacletackle.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

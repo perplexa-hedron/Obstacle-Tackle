@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ObstacleTackle",
+			"Path": "C:\\Users\\Piyush sinha\\OneDrive\\Documents\\GitHub\\obstacle-tackle\\ObstacleTackle\\Source\\ObstacleTackle.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ObstacleTackleEditor",
+			"Path": "C:\\Users\\Piyush sinha\\OneDrive\\Documents\\GitHub\\obstacle-tackle\\ObstacleTackle\\Source\\ObstacleTackleEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

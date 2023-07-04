@@ -30,6 +30,15 @@ void AMovingPlatform::Tick(float DeltaTime)
 	SetActorLocation(CurrentVector);
 	// move the platform backward
 	//  check the location
-	PlatformDistance = FVector::Dist(StartLocation,CurrentVector);
+	float PlatformDistance = FVector::Dist(StartLocation,CurrentVector);
 	// reverse the motion
+	// if(PlatformDistance > MoveDistance){
+	// 	PlatformVelocity = -PlatformVelocity;
+	// 	StartLocation = CurrentVector;
+	// }
+	if(PlatformDistance > MoveDistance){
+		StartLocation = StartLocation + PlatformVelocity.GetSafeNormal() * MoveDistance;
+		SetActorLocation(StartLocation);
+		PlatformVelocity = -PlatformVelocity;
+	}
 }

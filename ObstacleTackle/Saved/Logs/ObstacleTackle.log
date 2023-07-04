@@ -1435,3 +1435,117 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.07.04-11.32.58:972][ 91]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
 [2023.07.04-11.32.58:982][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
 [2023.07.04-11.32.59:024][ 92]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2023.07.04-11.45.38:747][425]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.07.04-11.45.38:823][425]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.04-11.45.38:832][425]PIE: New page: PIE session: Main (04-Jul-2023, 10:45:38 pm)
+[2023.07.04-11.45.38:899][425]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Main
+[2023.07.04-11.45.39:215][425]LogPlayLevel: PIE: StaticDuplicateObject took: (0.314174s)
+[2023.07.04-11.45.39:217][425]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main.Main to /Game/UEDPIE_0_Main.Main (0.317842s)
+[2023.07.04-11.45.39:224][425]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.04-11.45.39:235][425]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.04-11.45.39:257][425]LogAIModule: Creating AISystem for world Main
+[2023.07.04-11.45.39:280][425]LogPlayLevel: PIE: World Init took: (0.063809s)
+[2023.07.04-11.45.39:430][425]LogUObjectHash: Compacting FUObjectHashTables data took   8.59ms
+[2023.07.04-11.45.39:467][425]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.07.04-11.45.39:470][425]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.04-11.45.39:470][425]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.04-11.45.39:470][425]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.04-11.45.39:470][425]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.04-11.45.39:470][425]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.07.04-11.45.39:470][425]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.04-11.45.39:470][425]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.07.04-11.45.39:470][425]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.04-11.45.39:475][425]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.07.04-11.45.39:475][425]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.07.04-11.45.39:475][425]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.04-11.45.39:491][425]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.04-11.45.39:530][425]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Airdopes 501ANC)
+[2023.07.04-11.45.39:543][425]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.04-11.45.39:543][425]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.04-11.45.39:545][425]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.04-11.45.39:551][425]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2023.07.04-11.45.39:551][425]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2023.07.04-11.45.39:558][425]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2023.07.04-11.45.39:558][425]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2023.07.04-11.45.39:558][425]LogInit: FAudioDevice initialized with ID 5.
+[2023.07.04-11.45.39:558][425]LogAudio: Display: Audio Device (ID: 5) registered with world 'Main'.
+[2023.07.04-11.45.39:559][425]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2023.07.04-11.45.39:598][425]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2023.07.04-11.45.39:745][425]LogWorld: Bringing World /Game/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2023.07.04-17.15.39
+[2023.07.04-11.45.41:731][425]LogWorld: Bringing up level for play took: 2.128808
+[2023.07.04-11.45.41:749][425]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2023.07.04-11.45.41:778][425]PIE: Server logged in
+[2023.07.04-11.45.41:781][425]PIE: Play in editor total start time 2.975 seconds.
+[2023.07.04-11.45.41:907][426]LogAutomationController: Ignoring very large delta of 3.19 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.07.04-11.46.20:230][696]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.04-11.46.20:230][696]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Main
+[2023.07.04-11.46.20:236][696]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.07.04-11.46.20:241][696]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.04-11.46.20:273][696]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.04-11.46.20:277][696]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.04-11.46.20:288][696]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.04-11.46.20:293][696]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2023.07.04-11.46.20:294][696]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.07.04-11.46.20:295][696]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.07.04-11.46.20:331][696]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.07.04-11.46.20:443][697]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2023.07.04-11.46.37:740][713]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.07.04-11.46.49:070][372]LogLiveCoding: Display:    Creating library C:\Users\Piyush sinha\OneDrive\Documents\GitHub\obstacle-tackle\ObstacleTackle\Binaries\Win64\UnrealEditor-ObstacleTackle.patch_3.lib and object C:\Users\Piyush sinha\OneDrive\Documents\GitHub\obstacle-tackle\ObstacleTackle\Binaries\Win64\UnrealEditor-ObstacleTackle.patch_3.exp
+[2023.07.04-11.46.49:484][378]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.07.04-11.46.49:524][379]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.07.04-11.46.49:524][379]LogLiveCoding: Display: Live coding succeeded
+[2023.07.04-11.46.58:386][859]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.07.04-11.46.58:397][859]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.04-11.46.58:398][859]PIE: New page: PIE session: Main (04-Jul-2023, 10:46:58 pm)
+[2023.07.04-11.46.58:398][859]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Main
+[2023.07.04-11.46.58:429][859]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031494s)
+[2023.07.04-11.46.58:429][859]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main.Main to /Game/UEDPIE_0_Main.Main (0.031540s)
+[2023.07.04-11.46.58:429][859]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.04-11.46.58:429][859]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.04-11.46.58:430][859]LogAIModule: Creating AISystem for world Main
+[2023.07.04-11.46.58:430][859]LogPlayLevel: PIE: World Init took: (0.001010s)
+[2023.07.04-11.46.58:444][859]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2023.07.04-11.46.58:444][859]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.07.04-11.46.58:444][859]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.04-11.46.58:444][859]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.04-11.46.58:445][859]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.04-11.46.58:445][859]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.04-11.46.58:445][859]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.07.04-11.46.58:445][859]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.04-11.46.58:445][859]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.07.04-11.46.58:445][859]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.04-11.46.58:445][859]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.07.04-11.46.58:445][859]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.07.04-11.46.58:445][859]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.04-11.46.58:448][859]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.04-11.46.58:470][859]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Airdopes 501ANC)
+[2023.07.04-11.46.58:470][859]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.04-11.46.58:470][859]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.04-11.46.58:470][859]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.04-11.46.58:471][859]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.07.04-11.46.58:471][859]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2023.07.04-11.46.58:473][859]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.07.04-11.46.58:473][859]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.07.04-11.46.58:474][859]LogInit: FAudioDevice initialized with ID 6.
+[2023.07.04-11.46.58:474][859]LogAudio: Display: Audio Device (ID: 6) registered with world 'Main'.
+[2023.07.04-11.46.58:474][859]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2023.07.04-11.46.58:476][859]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2023.07.04-11.46.58:494][859]LogWorld: Bringing World /Game/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2023.07.04-17.16.58
+[2023.07.04-11.47.00:459][859]LogWorld: Bringing up level for play took: 1.981320
+[2023.07.04-11.47.00:461][859]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2023.07.04-11.47.00:463][859]PIE: Server logged in
+[2023.07.04-11.47.00:464][859]PIE: Play in editor total start time 2.069 seconds.
+[2023.07.04-11.47.00:482][860]LogAutomationController: Ignoring very large delta of 2.10 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.07.04-11.47.51:744][922]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.04-11.47.51:744][922]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Main
+[2023.07.04-11.47.51:745][922]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.07.04-11.47.51:746][922]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.04-11.47.51:759][922]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.04-11.47.51:763][922]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.04-11.47.51:773][922]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.07.04-11.47.51:773][922]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2023.07.04-11.47.51:773][922]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.07.04-11.47.51:775][922]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.07.04-11.47.51:779][922]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.04-11.47.51:785][922]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.07.04-11.47.51:821][923]LogPlayLevel: Display: Destroying online subsystem :Context_9

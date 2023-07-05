@@ -5,9 +5,14 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/Piyush sinha/OneDrive/Documents/GitHub/obstacle-tackle/ObstacleTackle/Content/ObstacleTackle.umap",
 				"C:/Users/Piyush sinha/OneDrive/Documents/GitHub/obstacle-tackle/ObstacleTackle/Content/Main.umap",
-				"C:/Users/Piyush sinha/OneDrive/Documents/GitHub/obstacle-tackle/ObstacleTackle/Content/SCK_Casual01/Blueprints/ThirdPersonCharacter.uasset"
+				"C:/Users/Piyush sinha/OneDrive/Documents/GitHub/obstacle-tackle/ObstacleTackle/Content/SCK_Casual01/Blueprints/ThirdPersonCharacter.uasset",
+				"C:/Users/Piyush sinha/OneDrive/Documents/GitHub/obstacle-tackle/ObstacleTackle/Content/BP_MovingPlatform.uasset",
+				"C:/Users/Piyush sinha/OneDrive/Documents/GitHub/obstacle-tackle/ObstacleTackle/Content/BP_PushingObject.uasset",
+				"C:/Users/Piyush sinha/OneDrive/Documents/GitHub/obstacle-tackle/ObstacleTackle/Content/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/Piyush sinha/OneDrive/Documents/GitHub/obstacle-tackle/ObstacleTackle/Content/BP_FloatingIsland.uasset",
+				"C:/Users/Piyush sinha/OneDrive/Documents/GitHub/obstacle-tackle/ObstacleTackle/Content/BP_FloatingFloor.uasset",
+				"C:/Users/Piyush sinha/OneDrive/Documents/GitHub/obstacle-tackle/ObstacleTackle/Content/ObstacleTackle.umap"
 			]
 		}
 	]

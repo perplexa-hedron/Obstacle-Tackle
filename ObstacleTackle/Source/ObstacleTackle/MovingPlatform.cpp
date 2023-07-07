@@ -57,7 +57,3 @@ float AMovingPlatform::PlatformDistance() const
 {
 	return FVector::Dist(StartLocation, GetActorLocation());
 }
-bool AMovingPlatform::ShouldPlatformReverseRotation() const
-{
-
-}

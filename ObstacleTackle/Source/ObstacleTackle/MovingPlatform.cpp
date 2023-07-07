@@ -45,7 +45,7 @@ void AMovingPlatform::MovePlatform(float Deltatime)
 
 void AMovingPlatform::RotatePlatform(float Deltatime)
 {
-	AddActorLocalRotation(RotationVelocity*Deltatime);
+	AddActorLocalRotation(RotationVelocity * Deltatime);
 }
 
 bool AMovingPlatform::ShouldPlatformReturn() const
@@ -56,4 +56,8 @@ bool AMovingPlatform::ShouldPlatformReturn() const
 float AMovingPlatform::PlatformDistance() const
 {
 	return FVector::Dist(StartLocation, GetActorLocation());
+}
+bool AMovingPlatform::ShouldPlatformReverseRotation() const
+{
+
 }
